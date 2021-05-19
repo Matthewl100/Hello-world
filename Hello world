@@ -1,0 +1,12 @@
+mkdir github_repos
+cd github_repos
+git clone git@github.com:Matthewl100/Hello-world.git
+touch test_file.tmp
+git add test_file.tmp
+git commit -m "Added a new file that is empty for now." test_file.tmp
+git push
+git pull
+cat test_file.tmp
+git commit -m "These are words which I don't want to keep." test_file.tmp
+git log
+git checkout HASH test_file.tmp
